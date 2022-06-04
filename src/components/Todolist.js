@@ -3,21 +3,21 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import Todo from './Todo'
 
-const alltodos = [
-    {description : "Einkaufen", done : true},
-    {description : "Sport", done : false},
-    {description : "Programmieren", done : false}
-];
+// const alltodos = [
+//     {description : "Einkaufen", done : true},
+//     {description : "Sport", done : false},
+//     {description : "Programmieren", done : false}
+// ];
 
 const Todolist = () => {
 
     //states zum speichern und ändern von Daten
     const [openCount, countOpenTodos] = useState(0);
-    const [todos, setTodos] = useState(alltodos /*[]*/ /*() => {
+    const [todos, setTodos] = useState(/*alltodos*/ /*[]*/ () => {
         const items = localStorage.getItem("items");
         const parsed = JSON.parse(items);
         return parsed;
-    }*/);
+    });
     const [textinput, settextinput] = useState("");
 
 
