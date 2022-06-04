@@ -1,9 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import Todolist from "./components/Todolist";
 
 function App() {
-
-  const [counter, setCounter] = useState(0);
 
   return (
 
