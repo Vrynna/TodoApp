@@ -5,7 +5,7 @@ function App() {
 
   return (
 
-      <div className="max-w-xl m-auto bg-gray-200 mt-20 ">
+      <div className="max-w-xl m-auto bg-gray-200 mt-20">
         <Todolist />
       </div>
   );
