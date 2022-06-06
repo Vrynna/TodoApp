@@ -68,7 +68,7 @@ const Todolist = () => {
   return (
     <div className="shadow-sm hover:shadow-lg">
         <div className="text-center bg-gray-900 text-white py-4 font-semibold">
-            <h1 className="text-3xl">Unsere Todos</h1>
+            <h1 className="text-3xl">Meine Todos</h1>
             <h2>Offene Todos: {openCount}</h2>
             <form className="grid grid-cols-3 py-2">
                 <input type="text" placeholder="Neues Todo..." className="col-span-2 py-2 text-gray-900" onChange={changeText}></input>
