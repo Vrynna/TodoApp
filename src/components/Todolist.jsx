@@ -61,7 +61,6 @@ const Todolist = () => {
   };
 
   return (
-    
     <div className="shadow-sm hover:shadow-lg">
       <div className="text-center bg-gray-900 text-white py-4 font-semibold">
         <h1 className="text-3xl">Meine Todos</h1>
